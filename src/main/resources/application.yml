@@ -12,6 +12,8 @@ spring:
         native:
           search-locations: classpath:/config
 
+          
+
 management:
   endpoints:
     web:
