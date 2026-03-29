@@ -12,3 +12,5 @@ src/main/resources/config/
 
 # Logs
 *.log
+
+target/
