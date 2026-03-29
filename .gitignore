@@ -1,0 +1,14 @@
+# Maven build output
+target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Classpath config files (served from Git repo root instead)
+src/main/resources/config/
+
+# Logs
+*.log
