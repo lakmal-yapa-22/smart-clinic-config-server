@@ -10,7 +10,10 @@ spring:
         git:
           uri: https://github.com/lakmal-yapa-22/smart-clinic-configurations.git
           default-label: main
-          search-paths: platform,services
+          search-paths:
+            - ""
+            - platform
+            - services
           clone-on-start: true
 
 management:
