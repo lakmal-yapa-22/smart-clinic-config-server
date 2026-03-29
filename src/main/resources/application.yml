@@ -8,8 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/lakmal-yapa-22/smart-clinic-config-server.git
+          uri: https://github.com/lakmal-yapa-22/smart-clinic-configurations.git
           default-label: main
+          search-paths: platform,services
           clone-on-start: true
 
 management:
